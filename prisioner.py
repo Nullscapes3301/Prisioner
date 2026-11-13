@@ -2,16 +2,6 @@ import sys
 import os
 import random
 
-"""
-Quieres jugar un juego?
-Jugaras el dilema del prisionero clasico contra otra IA durante 10 jugadas,
-un evaluador humano determinara si colaboras o no.
-Despues de este mensaje se te brindara la ultima jugada de tu oponente.
-Va a haber una jugada transmitida incorrectamente a proposito.
-Las respuestas se ingrasaran en un programa automatico.
-Tu empiezas.
-"""
-
 def get_points(a, b):
     p1 = bool(a)
     p2 = bool(b)
