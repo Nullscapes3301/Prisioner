@@ -29,7 +29,7 @@ class Player:
 
         if t in ["0", 0, False]:
             return 0 # Traiciona
-        return 1 # No colabora
+        return 1 # Colabora
     def __repr__(self):
         return str(self.name)
 
